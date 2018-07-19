@@ -65,7 +65,7 @@ console.log(error)
      console.log(res.resultValues);
      });  
 ```  
-   > Get the itinerary of a line or variable separated by |. It also obtains the coordinates and name of the stops.
+   > Get the itinerary of a line or variable separated by ( | ). It also obtains the coordinates and name of the stops.
 .
    ```js
     bus.getRouteLines(today, numBus).then(function(res){  
