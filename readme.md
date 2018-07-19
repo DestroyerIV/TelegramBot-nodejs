@@ -59,7 +59,7 @@ console.log(error)
      })
 ```
    ```js  
-   bus.getListLines(today, datelimit).then(function(res){  
+   bus.getListLines(today, numBus).then(function(res){  
      console.log(res.resultValues);
      })  
 ```
