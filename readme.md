@@ -2,7 +2,13 @@
 
 ![EMT BUS](/img/emt-bus_logo.png)
 
-[![Known Vulnerabilities](https://snyk.io/test/github/lorengamboa/emt-bus/badge.svg)](https://snyk.io/test/github/lorengamboa/emt-bus)
+[![Known Vulnerabilities](https://snyk.io/test/github/lorengamboa/emt-bus/badge.svg)](https://snyk.io/test/github/lorengamboa/emt-bus)  
+## Information  
+* [Requirements]()
+* [How to install]()  
+* [How to Use]()  
+* [Methods]  
+
 
 # Requirements
 > NodeJS v6+ | [Download NodeJS](https://nodejs.org/es/)  
