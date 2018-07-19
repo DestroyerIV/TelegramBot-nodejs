@@ -13,6 +13,6 @@
     const EMT = require('emt-bus')
     EMTToken = new EMT('idClient', 'passKey')
   
-   > Previamente tendremos que haber pedido las credenciales pertinentes
+   > Previously we will have to ask for the credentials here
    * Select Category
    * Make a request
