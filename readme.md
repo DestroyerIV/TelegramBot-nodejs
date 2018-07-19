@@ -5,7 +5,7 @@
 
 ## Requerements
 ## How to Install
-  - How to Use
-  - Authentication
-  - Select Category
-  - Make a request
+## How to Use
+  * Authentication
+  * Select Category
+  * Make a request
