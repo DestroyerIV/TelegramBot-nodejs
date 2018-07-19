@@ -29,11 +29,8 @@ This library is installed by npm even though you can also clone the repository
    > Previously we will have to ask for the credentials [here](https://github.com/DestroyerIV/TelegramBot-nodejs/blob/master/readme.md#requirements)
    ### Select Category  
   > *Establish the service to request*  
-   `js
-   varvar bus = EMTToken("bus")
-   ` or `js
-   varvar geo = EMTToken("geo")
-   `
+   `var bus = EMTToken("bus")` or `var geo = EMTToken("geo")`  
+   
    ### Make a request  
   > *We will make a basic request in the following way. the property 'today' it's the current day*  
    ```js
