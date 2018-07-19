@@ -51,3 +51,6 @@ console.log(error)
 });
 ```
    ## Methods
+   ### Bus  
+   
+   
