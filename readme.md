@@ -53,8 +53,10 @@ console.log(error)
    ## Methods
    ### Bus  
    * bus.getCalendar(today, datelimit).then...  
-   * bus.getListLines(today, numBus).then...  
-   - 
+   * 
+   ```
+   bus.getListLines(today, numBus).then...  
+```
    ```  
    bus.getListLines(today, datelimit).then(function(res){  
      console.log(res.resultValues)
