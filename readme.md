@@ -52,6 +52,6 @@ console.log(error)
 ```
    ## Methods
    ### Bus  
-   * bus.getCalendar(today).then...
+   * bus.getCalendar(today, ).then...
    *
    
