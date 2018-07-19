@@ -46,7 +46,7 @@ npm install emt-bus --save
 bus.getCalendar(today, datelimit).then(function(res){  
 console.log(res.resultValues);  
 })  
-.catch(function(error){  
+   .catch(function(error){  
 console.log(error)  
 });
 ```
