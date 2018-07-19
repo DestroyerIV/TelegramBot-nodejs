@@ -6,6 +6,6 @@
 ## Requerements
 ## How to Install
 ## How to Use
-  * - Authentication
-  * - Select Category
-  * - Make a request
+   * Authentication
+   * Select Category
+   * Make a request
