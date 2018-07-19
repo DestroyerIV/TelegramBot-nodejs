@@ -53,8 +53,8 @@ console.log(error)
    ## Methods
    ### 🚌 Bus Methods 
 
-|   Methods|Description|Parameters |
-| ---------|-------------|
+|   Methods|Description | Parameters |
+| ---------|------------|------------|
 | getCalendar|Get EMT Calendar for all days and line schedules for a range of dates   
 | getGroups|Returns every line type and their details |
 | getListLines|Returns lines with description and groups     |
