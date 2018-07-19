@@ -52,8 +52,7 @@ console.log(error)
 ```
    ## Methods
    ### Bus  
-   * bus.getCalendar(today, datelimit).then...  
-   * 
+   * bus.getCalendar(today, datelimit).then...   
    ```
    bus.getListLines(today, numBus).then...  
 ```
