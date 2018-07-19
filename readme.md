@@ -3,9 +3,9 @@
 
 [![Known Vulnerabilities](https://snyk.io/test/github/lorengamboa/emt-bus/badge.svg)](https://snyk.io/test/github/lorengamboa/emt-bus)
 
-- Requerements
-- How to Install
-- How to Use
+## Requerements
+## How to Install
+  - How to Use
   - Authentication
   - Select Category
   - Make a request
