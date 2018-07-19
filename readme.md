@@ -17,7 +17,7 @@
 ## How to Install
 This library is installed by npm even though you can also clone the repository.
 >   
-```bash  
+```  
 npm install emt-bus --save  
 ```
 
@@ -32,11 +32,11 @@ npm install emt-bus --save
    > Previously we will have to ask for the credentials [here](https://github.com/DestroyerIV/TelegramBot-nodejs/blob/master/readme.md#requirements)
    ### Select Category  
   > *Establish the service to request*  
-   ```
+   ```js
    var bus = EMTToken("bus")
    ```  
    or  
-   ```
+   ```js
    var geo = EMTToken("geo")  
    ```  
    
