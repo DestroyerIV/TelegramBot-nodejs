@@ -17,6 +17,7 @@ This library is installed by npm even though you can also clone the repository
    * Authentication  
    
   > `const EMT = require('emt-bus')`  
+   Use this constructor to generate access  
    `EMTToken = new EMT('idClient', 'passKey')`
    
    > Previously we will have to ask for the credentials here
