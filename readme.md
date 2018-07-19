@@ -7,7 +7,7 @@
 
 ## Requirements
 > NodeJS v6+ / [Download NodeJS](https://nodejs.org/es/)  
-> OpenData Service Token  
+> OpenData Service Token / Sign up in [Forms](http://opendata.emtmadrid.es/Formulario) and check your mail
 
 ## How to Install
 ## How to Use
