@@ -55,44 +55,44 @@ console.log(error)
    ### Bus   
    ```js
    bus.getCalendar(today, datelimit).then(function(res){  
-     console.log(res)
-     })
+     console.log(res.resultValues)
+     });
 ```
    ```js  
    bus.getListLines(today, numBus).then(function(res){  
      console.log(res.resultValues);
-     })  
+     });  
 ```
    ```js
     bus.getRouteLines(today, numBus).then(function(res){  
       console.log(res.resultValues);
-      })  
+      });  
 ```     
     
    ```js
    bus.getTimesLines(today, numBus).then(function(res){  
      console.log(res)
-     })  
+     });  
 ```     
      
    ```js
    bus.getTimeTableLines(today, numBus).then(function(res){  
      console.log(res);
-     })  
+     });  
 ```     
    ```js
    bus.getNodesLines(numParada).then(function(res){  
      console.log(res)
-     })  
+     });  
 ```
    ```js
    bus.get.RouteLinesRoute(today, numBus).then(function(res){  
       console.log(res)  
-     })  
+     });  
 ```
    ```js
    bus.getGroups().then(function(res){  
      console.log(res)
-     })  
+     });  
 ```
    
