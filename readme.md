@@ -16,7 +16,9 @@
 
 ## How to Install
 This library is installed by npm even though you can also clone the repository  
-> `npm install emt-bus --save`
+     > ```js  
+     npm install emt-bus --save  
+     ```
 
 ## How to Use
    ### Authentication  
