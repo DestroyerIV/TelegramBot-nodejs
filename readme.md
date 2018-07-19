@@ -56,12 +56,12 @@ console.log(error)
 |   Methods| Description | Parameters |
 | ---------|-------------|------------|
 | getCalendar|Get EMT Calendar for all days and line schedules for a range of dates| todayDate, dateLimit   
-| getGroups|Returns every line type and their details |
-| getListLines|Returns lines with description and groups     |
-| getNodesLines|Returns all stop identifiers and his coordinate, name, lines and directions|
-| getRouteLines| Returns a line/s route with the vertex info to build the route and coordinates for stops and axes |
-| getTimeTableLines|Provices information about the requested line at travel time|
-| getTimesLines|Returns current schedules for the requested lines|
+| getGroups|Returns every line type and their details | 
+| getListLines|Returns lines with description and groups| todayDate, numBus 
+| getNodesLines|Returns all stop identifiers and his coordinate, name, lines and directions| numStop
+| getRouteLines| Returns a line/s route with the vertex info to build the route and coordinates for stops and axes | todayDate, numBus
+| getTimeTableLines|Provices information about the requested line at travel time| todayDate, numBus
+| getTimesLines|Returns current schedules for the requested lines| todayDate, numBus
 
 ### 🌍 Geo Methods 
 
