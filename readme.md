@@ -14,12 +14,11 @@ This library is installed by npm even though you can also clone the repository
 
 # How to Use
    ### Authentication  
-  > *Call the library*  
-  `const EMT = require('emt-bus')`  
-   
-  >*Use this constructor to generate access to the service*  
-   `EMTToken = new EMT('idClient', 'passKey')`
-   
+  > *Call the library and use constructor to generate access to the service*  
+  ```const EMT = require('emt-bus')
+   EMTToken = new EMT('idClient', 'passKey')
+```  
+
    > Previously we will have to ask for the credentials [here](https://github.com/DestroyerIV/TelegramBot-nodejs/blob/master/readme.md#requirements)
    ### Select Category  
   > *Establish the service to request*  
