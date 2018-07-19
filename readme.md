@@ -3,22 +3,22 @@
 ![EMT BUS](/img/emt-bus_logo.png)
 
 [![Known Vulnerabilities](https://snyk.io/test/github/lorengamboa/emt-bus/badge.svg)](https://snyk.io/test/github/lorengamboa/emt-bus)  
-## Information  
+# Information  
 * [Requirements](https://github.com/DestroyerIV/TelegramBot-nodejs/blob/master/readme.md#requirements)
 * [How to install](https://github.com/DestroyerIV/TelegramBot-nodejs/blob/master/readme.md#how-to-install)  
 * [How to Use](https://github.com/DestroyerIV/TelegramBot-nodejs/blob/master/readme.md#how-to-use)  
 * [Methods]()  
 
 
-# Requirements
+## Requirements
 > NodeJS v6+ | [Download NodeJS](https://nodejs.org/es/)  
 > OpenData Service Token | Sign up in [Forms](http://opendata.emtmadrid.es/Formulario) and check your mail
 
-# How to Install
+## How to Install
 This library is installed by npm even though you can also clone the repository  
 > `npm install emt-bus --save`
 
-# How to Use
+## How to Use
    ### Authentication  
   > *Call the library and use constructor to generate access to the service*  
   ```
@@ -40,4 +40,4 @@ console.log(res.resultValues);
 console.log(error)  
 });
 ```
-   # Methods
+   ## Methods
