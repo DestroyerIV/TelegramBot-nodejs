@@ -51,7 +51,7 @@ console.log(error)
 });
 ```
    ## Methods
-   ### 🚌 Bus Methods 
+### 🚌 Bus Methods 
 
 |   Methods| Description | Parameters |
 | ---------|-------------|------------|
