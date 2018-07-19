@@ -32,7 +32,13 @@ npm install emt-bus --save
    > Previously we will have to ask for the credentials [here](https://github.com/DestroyerIV/TelegramBot-nodejs/blob/master/readme.md#requirements)
    ### Select Category  
   > *Establish the service to request*  
-   `var bus = EMTToken("bus")` or `var geo = EMTToken("geo")`  
+   ```
+   var bus = EMTToken("bus")
+   ```  
+   or  
+   ```
+   var geo = EMTToken("geo")  
+   ```  
    
    ### Make a request  
   > *We will make a basic request in the following way. the property 'today' it's the current day*  
