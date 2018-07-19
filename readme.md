@@ -53,14 +53,21 @@ console.log(error)
    ## Methods
    ### Bus   
    ```js
-   bus.getCalendar(today, datelimit).then...
+   bus.getCalendar(today, datelimit).then(function(res){  
+     console.log(res)
+     })
 ```
    ```js  
    bus.getListLines(today, datelimit).then(function(res){  
-     console.log(res.resultValues)
+     console.log(res.resultValues);
      })  
 ```
-   * bus.getRouteLines(today, numBus).then...  
+   ```js
+    bus.getRouteLines(today, numBus).then(function(res){  
+      console.log(res.resultValues);
+      })  
+```     
+    
    * bus.getTimesLines(today, numBus).then...  
    * bus.getTimeTableLines(today, numBus).then...  
    * bus.getNodesLines(numParada).then...  
