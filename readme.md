@@ -59,13 +59,14 @@ console.log(error)
      console.log(res.resultValues)
      });
 ```  
-   > Recupera información general acerca de las lineas de bus y subgrupo al que pertenece.
+   > Retrieves general information about the bus lines and subgroup to which it belongs..
    ```js  
    bus.getListLines(today, numBus).then(function(res){  
      console.log(res.resultValues);
      });  
 ```  
-   > Obtiene el itinerario de una linea o varia separada por |. Obtiene también las coordenadas y nombre de las paradas.
+   > Get the itinerary of a line or variable separated by |. It also obtains the coordinates and name of the stops.
+.
    ```js
     bus.getRouteLines(today, numBus).then(function(res){  
       console.log(res.resultValues);
