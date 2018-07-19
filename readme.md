@@ -23,7 +23,7 @@ This library is installed by npm even though you can also clone the repository
   > *Call the library and use constructor to generate access to the service*  
   ```js
   const EMT = require('emt-bus')
-   EMTToken = new EMT('idClient', 'passKey')
+  EMTToken = new EMT('idClient', 'passKey')
 ```  
 
    > Previously we will have to ask for the credentials [here](https://github.com/DestroyerIV/TelegramBot-nodejs/blob/master/readme.md#requirements)
@@ -32,7 +32,7 @@ This library is installed by npm even though you can also clone the repository
    `var bus = EMTToken("bus")` or `var geo = EMTToken("geo")`
    ### Make a request  
   > *We will make a basic request in the following way. the property 'today' it's the current day*  
-   ```
+   ```js
 bus.getCalendar(today).then(function(res){  
 console.log(res.resultValues);  
 })  
