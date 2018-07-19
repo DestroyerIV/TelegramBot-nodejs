@@ -80,8 +80,19 @@ console.log(error)
      console.log(res);
      })  
 ```     
-   * bus.getNodesLines(numParada).then...  
-   * bus.get.RouteLinesRoute(today, numBus).then...  
-   * bus.getGroups().then...  
-   
+   ```js
+   bus.getNodesLines(numParada).then(function(res){  
+     console.log(res)
+     })  
+```
+   ```js
+   bus.get.RouteLinesRoute(today, numBus).then(function(res){  
+      console.log(res)  
+     })  
+```
+   ```js
+   bus.getGroups().then(function(res){  
+     console.log(res)
+     })  
+```
    
