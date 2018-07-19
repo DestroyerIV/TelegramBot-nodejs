@@ -6,8 +6,8 @@
 ## Information  
 * [Requirements](https://github.com/DestroyerIV/TelegramBot-nodejs/blob/master/readme.md#requirements)
 * [How to install](https://github.com/DestroyerIV/TelegramBot-nodejs/blob/master/readme.md#how-to-install)  
-* [How to Use]()  
-* [Methods]  
+* [How to Use](https://github.com/DestroyerIV/TelegramBot-nodejs/blob/master/readme.md#how-to-use)  
+* [Methods]()  
 
 
 # Requirements
