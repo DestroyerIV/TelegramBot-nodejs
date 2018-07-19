@@ -72,13 +72,14 @@ console.log(error)
       console.log(res.resultValues);
       });  
 ```     
-    
+   > Get the itinerary of the arrival frequency schedules to the stop, or when the service starts and ends.
+Bus schedules depending on whether it is working, Saturday or holiday.    
    ```js
    bus.getTimesLines(today, numBus).then(function(res){  
      console.log(res)
      });  
 ```     
-     
+   > Get the frequency time a bus passes.
    ```js
    bus.getTimeTableLines(today, numBus).then(function(res){  
      console.log(res);
