@@ -68,8 +68,17 @@ console.log(error)
       })  
 ```     
     
-   * bus.getTimesLines(today, numBus).then...  
-   * bus.getTimeTableLines(today, numBus).then...  
+   ```js
+   bus.getTimesLines(today, numBus).then(function(res){  
+     console.log(res)
+     })  
+```     
+     
+   ```js
+   bus.getTimeTableLines(today, numBus).then(function(res){  
+     console.log(res);
+     })  
+```     
    * bus.getNodesLines(numParada).then...  
    * bus.get.RouteLinesRoute(today, numBus).then...  
    * bus.getGroups().then...  
