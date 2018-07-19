@@ -2,6 +2,7 @@
 **API disponible para servicios de EMT (Empresa Municipal de Transportes)**
 
 [EMT-BUS](https://github.com/Destroyer/TeelgramBot-nodejs/master/emt-bus_logo.png)
+
 [![Known Vulnerabilities](https://snyk.io/test/github/lorengamboa/emt-bus/badge.svg)](https://snyk.io/test/github/lorengamboa/emt-bus)
 
 ## Requerements
