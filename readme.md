@@ -65,8 +65,8 @@ console.log(error)
 
 ### 🌍 Geo Methods 
 
-|   Methods|Description |
-| ---------|-------------|
+|   Methods| Description | Parameters |
+| ---------|-------------|------------|
 | getArriveStop|Gets bus arrive info to a target stop |
 | getGroups|Return a list of groups |
 | getInfoLine|Returns line info in a target date|
@@ -81,8 +81,8 @@ console.log(error)
 
 ### 📺 Media Methods(WIP)
 
-|   Methods|Description |
-| ---------|-------------|
+|   Methods| Description | Parameters |
+| ---------|-------------|------------|
 | getEstimatesIncident| Get estimate arrival time to stop and its related issues
 | getStreetRoute|Request up to three optimal routes from one place to another using bus or walking, source and destination must be in a format known for the system, which means that should have been validated by a GetStreet call   
 | getRouteWithAlarm| |
@@ -92,15 +92,15 @@ console.log(error)
 
 ### 🚲 Bike Methods 
 
-|   Methods|Description |
-| ---------|-------------|
+|   Methods| Description | Parameters |
+| ---------|-------------|------------|
 | getStations|Obtiene la relación de todas las bases de Bicimad y su estado operacional. |
 | getSingleStations|Obtiene la información de una base |
 
 ### 🅿 Parking Methods (WIP)
 
-|   Methods|Description |
-| ---------|-------------|
+|   Methods| Description | Parameters |
+| ---------|-------------|------------|
 | detailParking|N/A |
 | detailPOI|N/A |
 | iconDescription|N/A|
