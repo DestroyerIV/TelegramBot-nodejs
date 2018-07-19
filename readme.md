@@ -29,6 +29,9 @@ This library is installed by npm even though you can also clone the repository
    ```
 bus.getCalendar(today).then(function(res){  
 console.log(res.resultValues);  
-})
+})  
+.catch(function(error){  
+console.log(error)  
+});
 ```
    # Methods
