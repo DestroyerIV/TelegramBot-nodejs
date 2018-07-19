@@ -17,7 +17,7 @@
 ## How to Install
 This library is installed by npm even though you can also clone the repository.
 >   
-```  
+```js  
 npm install emt-bus --save  
 ```
 
