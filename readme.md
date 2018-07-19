@@ -84,17 +84,23 @@ Bus schedules depending on whether it is working, Saturday or holiday.
    bus.getTimeTableLines(today, numBus).then(function(res){  
      console.log(res);
      });  
-```     
+```  
+   > Retrieve all stop identifiers with their respective coordinates, their name and the relation between line and direction of them.
+
    ```js
    bus.getNodesLines(numParada).then(function(res){  
      console.log(res)
      });  
-```
+```  
+   > All the lines through which each bus passes.
+
    ```js
    bus.get.RouteLinesRoute(today, numBus).then(function(res){  
       console.log(res)  
      });  
-```
+```  
+   > Returns the data of the different types of networks of the EMT lines.
+
    ```js
    bus.getGroups().then(function(res){  
      console.log(res)
