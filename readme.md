@@ -26,6 +26,7 @@ This library is installed by npm even though you can also clone the repository
    `var bus = EMTToken("bus")` or `var geo = EMTToken("geo")`
    ### Make a request  
   > *we will make a basic request in the following way*  
-  `bus.getCalendar(today).then(function(res){
+  `bus.getCalendar(today).then(function(res){  
+  console.log(res.resultValues)
   })`
    
