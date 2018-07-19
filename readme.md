@@ -13,7 +13,7 @@
     ```
     const EMT = require('emt-bus')
     EMTToken = new EMT('idClient', 'passKey')`
-    ```  
+    ```
     
    * Select Category
    * Make a request
