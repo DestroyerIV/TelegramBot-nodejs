@@ -56,7 +56,7 @@ console.log(error)
 |   Methods| Description | Parameters |
 | ---------|-------------|------------|
 | getCalendar|Get EMT Calendar for all days and line schedules for a range of dates| todayDate, dateLimit   
-| getGroups|Returns every line type and their details | 
+| getGroups|Returns every line type and their details | Empty
 | getListLines|Returns lines with description and groups| todayDate, numBus 
 | getNodesLines|Returns all stop identifiers and his coordinate, name, lines and directions| numStop
 | getRouteLines| Returns a line/s route with the vertex info to build the route and coordinates for stops and axes | todayDate, numBus
@@ -67,17 +67,17 @@ console.log(error)
 
 |   Methods| Description | Parameters |
 | ---------|-------------|------------|
-| getArriveStop|Gets bus arrive info to a target stop |
-| getGroups|Return a list of groups |
-| getInfoLine|Returns line info in a target date|
-| getInfoLineExtend|Returns line info in a target date|
-| getPointsOfInterest|Returns a list of Points of Interest from a coordinate center with a target radius|
+| getArriveStop|Gets bus arrive info to a target stop | numStop
+| getGroups|Return a list of groups | Empty
+| getInfoLine|Returns line info in a target date| todayDate, numBus
+| getInfoLineExtend|Returns line info in a target date| todayDate, numBus
+| getPointsOfInterest|Returns a list of Points of Interest from a coordinate center with a target radius| latitude, longitude, Radius
 | getPointsOfInterestTypes|Returns a list of Point of interest types|
-| getStopsFromStop|Returns a list of stops from a target stop with a target radius and the lines arriving to those stops.|
-| getStopsFromXY|Returns a list of stops from a coordinate with a radius and the lines arriving to those stops.|
-| getStopsLine|Provices information about the requested line at travel time.|
-| getStreet|Returns a list of EMT nodes related to a location. All EMT locations are a group of stops  within a target radius and the lines related to each stop in the list.|
-| getStreetFromXY|Returns a list of stops from a target coordinate.|
+| getStopsFromStop|Returns a list of stops from a target stop with a target radius and the lines arriving to those stops.| numStop, Radious
+| getStopsFromXY|Returns a list of stops from a coordinate with a radius and the lines arriving to those stops.| latitude, longitude, Radius
+| getStopsLine|Provices information about the requested line at travel time.| numBus, direction (1 = Going, 2 = Return)
+| getStreet|Returns a list of EMT nodes related to a location. All EMT locations are a group of stops  within a target radius and the lines related to each stop in the list.| streetNumber, description (name street)
+| getStreetFromXY|Returns a list of stops from a target coordinate.| latitude, longitude, Radius
 
 ### 📺 Media Methods(WIP)
 
