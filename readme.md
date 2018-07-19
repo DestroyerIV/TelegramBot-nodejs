@@ -10,7 +10,7 @@
 ## How to Use
    * Authentication  
    
-    ```js
+    ```
     const EMT = require('emt-bus')
     EMTToken = new EMT('idClient', 'passKey')`
     ```  
