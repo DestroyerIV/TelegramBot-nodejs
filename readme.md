@@ -1,7 +1,5 @@
 # EMT BUS API Library  
 
-**API EMT-Library disponible para servicios de EMT (Empresa Municipal de Transportes)**
-
 ![EMT BUS](/img/emt-bus_logo.png)
 
 [![Known Vulnerabilities](https://snyk.io/test/github/lorengamboa/emt-bus/badge.svg)](https://snyk.io/test/github/lorengamboa/emt-bus)
