@@ -41,9 +41,9 @@ npm install emt-bus --save
    ```  
    
    ### Make a request  
-  > *We will make a basic request in the following way. the property 'today' it's the current day*  
+  > *We will make a basic request in the following way. the property 'today' it's the current day and datelimit is the deadline*  
    ```js
-bus.getCalendar(today).then(function(res){  
+bus.getCalendar(today, datelimit).then(function(res){  
 console.log(res.resultValues);  
 })  
 .catch(function(error){  
