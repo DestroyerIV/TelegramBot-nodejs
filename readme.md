@@ -4,15 +4,15 @@
 
 [![Known Vulnerabilities](https://snyk.io/test/github/lorengamboa/emt-bus/badge.svg)](https://snyk.io/test/github/lorengamboa/emt-bus)
 
-## Requirements
+# Requirements
 > NodeJS v6+ | [Download NodeJS](https://nodejs.org/es/)  
 > OpenData Service Token | Sign up in [Forms](http://opendata.emtmadrid.es/Formulario) and check your mail
 
-## How to Install
+# How to Install
 This library is installed by npm even though you can also clone the repository  
 > `npm install emt-bus --save`
 
-## How to Use
+# How to Use
    ### Authentication  
   > *Call the library*  
   `const EMT = require('emt-bus')`  
