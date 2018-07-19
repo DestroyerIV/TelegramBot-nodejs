@@ -6,8 +6,8 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/lorengamboa/emt-bus/badge.svg)](https://snyk.io/test/github/lorengamboa/emt-bus)
 
 ## Requirements
-> NodeJS v6+
-> Open Data Token
+> NodeJS v6+  
+> OpenData Service Token  
 
 ## How to Install
 ## How to Use
