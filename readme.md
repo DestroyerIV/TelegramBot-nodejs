@@ -15,11 +15,11 @@ This library is installed by npm even though you can also clone the repository
 
 ## How to Use
    * Authentication  
-   
+   >
    `const EMT = require('emt-bus')`  
    
    `EMTToken = new EMT('idClient', 'passKey')`
-
+   >
    > Previously we will have to ask for the credentials here
    * Select Category
    * Make a request
