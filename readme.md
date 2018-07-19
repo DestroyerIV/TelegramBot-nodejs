@@ -23,5 +23,5 @@ This library is installed by npm even though you can also clone the repository
    > Previously we will have to ask for the credentials [here](https://github.com/DestroyerIV/TelegramBot-nodejs/blob/master/readme.md#requirements)
    * Select Category  
   > *Establish the service to request*  
-   `var bus = EMTToken("bus")` or `var geo = EMTToken()`
+   `var bus = EMTToken("bus")` or `var geo = EMTToken("geo")`
    * Make a request
