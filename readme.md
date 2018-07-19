@@ -55,7 +55,7 @@ console.log(error)
 
 |   Methods| Description | Parameters |
 | ---------|-------------|------------|
-| getCalendar|Get EMT Calendar for all days and line schedules for a range of dates   
+| getCalendar|Get EMT Calendar for all days and line schedules for a range of dates| TodayDate, DateLimit   
 | getGroups|Returns every line type and their details |
 | getListLines|Returns lines with description and groups     |
 | getNodesLines|Returns all stop identifiers and his coordinate, name, lines and directions|
