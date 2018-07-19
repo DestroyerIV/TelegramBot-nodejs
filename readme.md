@@ -51,6 +51,7 @@ console.log(error)
 });
 ```
    ## Methods
+   > We leave these two variables specified. 'today' would be responsible for obtaining the current day and 'numBus' would be the number of the bus to consult
    ### Bus   
    ```js
    bus.getCalendar(today, datelimit).then(function(res){  
