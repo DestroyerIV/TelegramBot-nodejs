@@ -1,4 +1,5 @@
-# EMT BUS API
+# EMT BUS API Library  
+
 **API disponible para servicios de EMT (Empresa Municipal de Transportes)**
 
 ![EMT BUS](/img/emt-bus_logo.png)
