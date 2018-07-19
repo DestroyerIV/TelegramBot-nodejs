@@ -58,12 +58,14 @@ console.log(error)
    bus.getCalendar(today, datelimit).then(function(res){  
      console.log(res.resultValues)
      });
-```
+```  
+   > Recupera información general acerca de las lineas de bus y subgrupo al que pertenece.
    ```js  
    bus.getListLines(today, numBus).then(function(res){  
      console.log(res.resultValues);
      });  
-```
+```  
+   > Obtiene el itinerario de una linea o varia separada por |. Obtiene también las coordenadas y nombre de las paradas.
    ```js
     bus.getRouteLines(today, numBus).then(function(res){  
       console.log(res.resultValues);
