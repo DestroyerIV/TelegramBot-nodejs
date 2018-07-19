@@ -9,10 +9,10 @@
 ## How to Install
 ## How to Use
    * Authentication  
-   
+
     const EMT = require('emt-bus')
     EMTToken = new EMT('idClient', 'passKey')
-  
+
    > Previously we will have to ask for the credentials here
    * Select Category
    * Make a request
