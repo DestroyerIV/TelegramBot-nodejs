@@ -51,8 +51,7 @@ console.log(error)
 });
 ```
    ## Methods
-   ### Bus  
-   * 
+   ### Bus   
    ```js
    bus.getCalendar(today, datelimit).then...
 ```
