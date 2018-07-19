@@ -8,10 +8,12 @@
 ## Requirements
 ## How to Install
 ## How to Use
-   * Authentication 
-    ```
+   * Authentication  
+   
+    ```js
     const EMT = require('emt-bus')
     EMTToken = new EMT('idClient', 'passKey')`
-    ```
+    ```  
+    
    * Select Category
    * Make a request
